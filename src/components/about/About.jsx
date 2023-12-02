@@ -37,9 +37,10 @@ const About = () => {
           <p>
             My passion for web development started in 2019 when I first learned
             HTML to update and maintain my employer's website at a nonprofit. I
-            continued to develop my skills a Client Support Specialist at a SaaS
-            startup where I worked closely with clients and engineers and
-            developed more technical skills, starting with SQL.
+            continued to develop my technical skills as a Client Support
+            Specialist at a SaaS startup where I worked closely with clients and
+            engineers and applied my technical knowledge by using SQL, writing
+            documentation, and debugging issues.
             <br />
             <br />
             I recently graduated from the Grace Hopper coding bootcamp at
