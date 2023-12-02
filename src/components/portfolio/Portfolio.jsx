@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/aMUSE-img.png";
 import IMG2 from "../../assets/dancelibrary.png";
 import IMG3 from "../../assets/Christinas-List.png";
+import ComingSoon from "../../assets/coming-soon.png";
 
 const data = [
   {
@@ -26,6 +27,14 @@ const data = [
     github: "https://github.com/chrlee20043/christinas-list",
     liveLink: "https://christinas-list.onrender.com/",
   },
+  {
+    id: 4,
+    image: ComingSoon,
+    title: "Job Finder",
+    note: "In Progress",
+    github: "https://github.com/chrlee20043/react-native-jobs",
+    liveLink: "Coming Soon",
+  },
 ];
 
 const Portfolio = () => {
@@ -35,13 +44,14 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, liveLink }) => {
+        {data.map(({ id, image, title, note, github, liveLink }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
+              <small className="portfolio_title_note">{note}</small>
               <div className="portfolio__item-cta">
                 <a
                   href={github}

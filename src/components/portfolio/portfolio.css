@@ -32,6 +32,11 @@
     margin-bottom: 1rem;
 }
 
+.portfolio_title_note {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
     .portfolio__container {
