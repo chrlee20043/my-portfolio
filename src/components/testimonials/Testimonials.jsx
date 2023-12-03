@@ -18,7 +18,7 @@ const data = [
     avatar: AVTR1,
     peerName: "Jennifer Hong",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero tenetur quaerat cum quos. Deserunt, corrupti saepe quos ipsam a accusantium odit ullam. Ad necessitatibus iure quaerat aut eveniet illo vel.",
+      "I had the pleasure of collaborating with Christina Lee on a capstone project during our time in Fullstack Academy’s Grace Hopper Program — an intensive software engineering curriculum. Christina’s commitment to embracing new challenges was evident throughout our collaboration. She consistently displayed a proactive attitude, readily tackling new concepts and technologies to enhance our project's success.",
   },
   {
     avatar: AVTR1,
@@ -37,7 +37,7 @@ const data = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
+      <h5>Review from peers</h5>
       <h2>Testimonials</h2>
       <Swiper
         className="container testimonials__container"

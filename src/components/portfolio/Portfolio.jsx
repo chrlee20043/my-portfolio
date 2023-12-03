@@ -123,7 +123,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href=""
+              href="http://google.com"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -133,7 +133,6 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        );
       </div>
     </section>
   );

@@ -9,6 +9,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import AppRouter from "./components/routes/AppRouter";
+import Amuse from "./components/portfolio/Amuse";
 
 const App = () => {
   return (
