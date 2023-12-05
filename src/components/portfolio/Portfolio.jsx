@@ -4,8 +4,7 @@ import IMG1 from "../../assets/aMUSE-img.png";
 import IMG2 from "../../assets/dancelibrary.png";
 import IMG3 from "../../assets/Christinas-List.png";
 import ComingSoon from "../../assets/coming-soon.png";
-import Amuse from "./Amuse";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Portfolio = () => {
   const navigate = useNavigate();
@@ -20,7 +19,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img
               src={IMG1}
-              alt="amuse"
+              alt="amuse project"
               onClick={() => navigate("/project/amuse")}
             />
           </div>

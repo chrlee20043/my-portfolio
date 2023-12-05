@@ -1,7 +1,6 @@
 import React from "react";
-import IMG1 from "../../assets/aMUSE.png";
 
-const Amuse = () => {
+const DanceLibrary = () => {
   return (
     <section id="project__details">
       <h2>aMUSE</h2>
@@ -39,4 +38,4 @@ const Amuse = () => {
   );
 };
 
-export default Amuse;
+export default DanceLibrary;
