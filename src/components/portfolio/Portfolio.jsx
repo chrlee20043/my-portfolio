@@ -4,15 +4,15 @@ import IMG1 from "../../assets/aMUSE-img.png";
 import IMG2 from "../../assets/dancelibrary.png";
 import IMG3 from "../../assets/Christinas-List.png";
 import ComingSoon from "../../assets/coming-soon.png";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Portfolio = () => {
   const navigate = useNavigate();
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      {/* <h5>My Recent Work</h5> */}
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         <article className="portfolio__item">
@@ -20,7 +20,7 @@ const Portfolio = () => {
             <img
               src={IMG1}
               alt="amuse project"
-              onClick={() => navigate("/project/amuse")}
+              onClick={() => navigate("/amuse")}
             />
           </div>
           <h3>aMUSE</h3>

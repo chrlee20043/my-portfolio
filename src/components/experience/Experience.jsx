@@ -1,12 +1,13 @@
 import React from "react";
-import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import "./experience.css";
+import Jobs from "../jobs/Jobs";
 
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      {/* <h5>What Skills I Have</h5> */}
+      <h2>Technical Experience</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -83,6 +84,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
+      <Jobs />
     </section>
   );
 };

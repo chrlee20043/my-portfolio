@@ -1,52 +1,36 @@
 import React from "react";
 import "./nav.css";
+import { Link } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
-import { useState } from "react";
+import { CgWebsite } from "react-icons/cg";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
-
   return (
     <nav>
-      <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
-      >
-        <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        <BiBook />
-      </a>
-      <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <RiServiceLine />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
-        <BiMessageSquareDetail />
-      </a>
+      <Link to="/" className="nav-link">
+        <AiOutlineHome size={24} />
+        <p>Home</p>
+      </Link>
+
+      <Link to="/experience" className="nav-link">
+        <BiBook size={24} />
+        <p>Experience</p>
+      </Link>
+      <Link to="/portfolio" className="nav-link">
+        <CgWebsite size={24} />
+        <p>Projects</p>
+      </Link>
+      <Link to="/testimonials" className="nav-link">
+        <RiServiceLine size={24} />
+        <p>Testimonials</p>
+      </Link>
+      <Link to="/contact" className="nav-link">
+        <BiMessageSquareDetail size={24} />
+        <p>Contact</p>
+      </Link>
     </nav>
   );
 };
