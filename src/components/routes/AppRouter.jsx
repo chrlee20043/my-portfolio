@@ -4,12 +4,11 @@ import Home from "../home/Home";
 import Nav from "../nav/Nav";
 import About from "../about/About";
 import Experience from "../experience/Experience";
-// import Services from "../jobs/Jobs";
 import Portfolio from "../portfolio/Portfolio";
 import Testimonials from "../testimonials/Testimonials";
 import Contact from "../contact/Contact";
 import Footer from "../footer/Footer";
-import Amuse from "../portfolio/Amuse";
+import Amuse from "../portfolio/projects/Amuse";
 
 const AppRouter = () => {
   return (

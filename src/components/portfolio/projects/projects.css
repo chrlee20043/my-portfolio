@@ -1,0 +1,25 @@
+
+
+.project__image {
+        margin: 2rem auto;
+        width: 75%;
+
+}
+
+.project__card h2 {
+    color: var(--color-white);
+    text-align: center;
+}
+
+.project__card p {
+    color: var(--color-light);
+
+}
+
+.project__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
