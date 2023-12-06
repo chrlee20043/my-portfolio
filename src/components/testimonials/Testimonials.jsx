@@ -30,7 +30,7 @@ const data = [
     avatar: AVTR1,
     peerName: "Christa Sereda",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero tenetur quaerat cum quos. Deserunt, corrupti saepe quos ipsam a accusantium odit ullam. Ad necessitatibus iure quaerat aut eveniet illo vel.",
+      "Christina is an amazing developer, whose dedication during our capstone project, allowed our final masterpiece to be possible. She handled token passing with ease and was just super helpful during every aspect of its creation. She would be an invaluable addition to any team!",
   },
 ];
 

@@ -12,6 +12,8 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    margin-bottom: 2rem;
+
 }
 
 .experience__container > div:hover {
