@@ -24,7 +24,41 @@ const Portfolio = () => {
             />
           </div>
           <h3>aMUSE</h3>
-          <small className="portfolio_title_note">Tech Stack</small>
+          <h5 className="portfolio_title_note">Tech Stack</h5>
+          <div>
+            <ul className="portfolio_tech_stack">
+              <small>
+                <li>React</li>
+              </small>
+              <small>
+                <li>Redux</li>
+              </small>
+              <small>
+                <li>PostgreSQL</li>
+              </small>
+              <small>
+                <li>Express</li>
+              </small>
+              <small>
+                <li>Node</li>
+              </small>
+              <small>
+                <li>JavaScript</li>
+              </small>
+              <small>
+                <li>CSS</li>
+              </small>
+              <small>
+                <li>Tailwind</li>
+              </small>
+              <small>
+                <li>Bcrypt</li>
+              </small>
+              <small>
+                <li>Cypress</li>
+              </small>
+            </ul>
+          </div>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/ghp-team-2-capstone/museum-app"
@@ -53,7 +87,41 @@ const Portfolio = () => {
             />
           </div>
           <h3>Dance Library</h3>
-          <small className="portfolio_title_note">Tech Stack</small>
+          <h5 className="portfolio_title_note">Tech Stack</h5>
+          <div>
+            <ul className="portfolio_tech_stack">
+              <small>
+                <li>React</li>
+              </small>
+              <small>
+                <li>Redux</li>
+              </small>
+              <small>
+                <li>PostgreSQL</li>
+              </small>
+              <small>
+                <li>Express</li>
+              </small>
+              <small>
+                <li>Node</li>
+              </small>
+              <small>
+                <li>JavaScript</li>
+              </small>
+              <small>
+                <li>CSS</li>
+              </small>
+              <small>
+                <li>Tailwind</li>
+              </small>
+              <small>
+                <li>Bcrypt</li>
+              </small>
+              <small>
+                <li>Cypress</li>
+              </small>
+            </ul>
+          </div>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/chrlee20043/dance-library"
@@ -82,7 +150,41 @@ const Portfolio = () => {
             />
           </div>
           <h3>Christina's List</h3>
-          <small className="portfolio_title_note">Tech Stack</small>
+          <h5 className="portfolio_title_note">Tech Stack</h5>
+          <div>
+            <ul className="portfolio_tech_stack">
+              <small>
+                <li>React</li>
+              </small>
+              <small>
+                <li>Redux</li>
+              </small>
+              <small>
+                <li>PostgreSQL</li>
+              </small>
+              <small>
+                <li>Express</li>
+              </small>
+              <small>
+                <li>Node</li>
+              </small>
+              <small>
+                <li>JavaScript</li>
+              </small>
+              <small>
+                <li>CSS</li>
+              </small>
+              <small>
+                <li>Tailwind</li>
+              </small>
+              <small>
+                <li>Bcrypt</li>
+              </small>
+              <small>
+                <li>Cypress</li>
+              </small>
+            </ul>
+          </div>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/chrlee20043/christinas-list"
