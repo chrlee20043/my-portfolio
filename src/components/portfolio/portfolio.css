@@ -1,3 +1,17 @@
+.portfolio__intro {
+    text-align: center;
+}
+
+.portfolio__intro h3 {
+    margin: 1rem;
+    color: var(--color-light)
+}
+
+.portfolio__intro p {
+    margin-bottom: 3rem;
+
+}
+
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

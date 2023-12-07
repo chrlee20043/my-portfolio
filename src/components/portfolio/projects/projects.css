@@ -22,7 +22,7 @@ h1 {
 }
 
 .project__card h2 {
-    color: var(--color-primary);
+    color: var(--color-white);
     text-align: center;
 }
 

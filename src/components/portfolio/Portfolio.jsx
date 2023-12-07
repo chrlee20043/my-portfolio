@@ -13,7 +13,13 @@ const Portfolio = () => {
     <section id="portfolio">
       {/* <h5>My Recent Work</h5> */}
       <h2>Projects</h2>
-
+      <div className="portfolio__intro">
+        <h3>
+          Browse through my recent projects that I developed independently and
+          on teams.
+        </h3>
+        <p>Currently learning: React Native for mobile app development</p>
+      </div>
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -83,7 +89,7 @@ const Portfolio = () => {
             <img
               src={IMG2}
               alt="Dance Library"
-              onClick={() => navigate("project/dance-library")}
+              onClick={() => navigate("/dance-library")}
             />
           </div>
           <h3>Dance Library</h3>
@@ -112,7 +118,7 @@ const Portfolio = () => {
                 <li>CSS</li>
               </small>
               <small>
-                <li>Tailwind</li>
+                <li>Material UI</li>
               </small>
               <small>
                 <li>Bcrypt</li>
@@ -146,7 +152,7 @@ const Portfolio = () => {
             <img
               src={IMG3}
               alt="Christina's List"
-              onClick={() => navigate("/project/christinas-list")}
+              onClick={() => navigate("/christinas-list")}
             />
           </div>
           <h3>Christina's List</h3>
@@ -160,28 +166,10 @@ const Portfolio = () => {
                 <li>Redux</li>
               </small>
               <small>
-                <li>PostgreSQL</li>
-              </small>
-              <small>
-                <li>Express</li>
-              </small>
-              <small>
-                <li>Node</li>
-              </small>
-              <small>
                 <li>JavaScript</li>
               </small>
               <small>
                 <li>CSS</li>
-              </small>
-              <small>
-                <li>Tailwind</li>
-              </small>
-              <small>
-                <li>Bcrypt</li>
-              </small>
-              <small>
-                <li>Cypress</li>
               </small>
             </ul>
           </div>
@@ -214,6 +202,11 @@ const Portfolio = () => {
           </div>
           <h3>Job Finder</h3>
           <small className="portfolio_title_note">Tech Stack</small>
+          <ul className="portfolio_tech_stack">
+            <small>
+              <li>React Native</li>
+            </small>
+          </ul>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/chrlee20043/react-native-jobs"
@@ -222,15 +215,6 @@ const Portfolio = () => {
               rel="noreferrer"
             >
               Github
-            </a>
-            <a
-              href="http://google.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-              disabled
-            >
-              Live Link
             </a>
           </div>
         </article>
