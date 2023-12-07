@@ -6,34 +6,41 @@ const Footer = () => {
     <footer>
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="/experience">Experience</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="/projects">Portfolio</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="/testimonials">Testimonials</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
-
-      {/* <div className="footer__socials">
-        <a href=""></a>
+      <div className="footer__contact">
+        <p>Contact Me</p>
+        <a href="mailto:chrlee93@gmail.com" target="_blank" rel="noreferrer">
+          chrlee93@gmail.com
+        </a>
+        <a
+          href="https://www.linkedin.com/in/christinaehlee/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/chrlee20043"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
       </div>
-      <div className="footer__copy">
-        <small></small>
-      </div> */}
     </footer>
   );
 };
