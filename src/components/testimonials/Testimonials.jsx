@@ -1,6 +1,7 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/purpleflower.jpg";
+import AVTR1 from "../../assets/Jennifer-Hong.png";
+import AVTR2 from "../../assets/Christa-Sereda.png";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper/modules";
@@ -27,7 +28,7 @@ const data = [
   //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero tenetur quaerat cum quos. Deserunt, corrupti saepe quos ipsam a accusantium odit ullam. Ad necessitatibus iure quaerat aut eveniet illo vel.",
   // },
   {
-    avatar: AVTR1,
+    avatar: AVTR2,
     peerName: "Christa Sereda",
     review:
       "Christina is an amazing developer, whose dedication during our capstone project, allowed our final masterpiece to be possible. She handled token passing with ease and was just super helpful during every aspect of its creation. She would be an invaluable addition to any team!",
@@ -52,8 +53,8 @@ const Testimonials = () => {
               <div className="client__avatar">
                 <img src={avatar} alt="client" />
               </div>
-              <h5 className="client__name">{peerName}</h5>
-              <small className="client__review">{review}</small>
+              <h4 className="client__name">{peerName}</h4>
+              <p className="client__review">{review}</p>
             </SwiperSlide>
           );
         })}
