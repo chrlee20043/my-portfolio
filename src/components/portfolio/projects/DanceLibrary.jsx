@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-import IMG1 from "../../../assets/dancelibraryclasses.png";
+import IMG1 from "../../../assets/dancelibraryClasses.png";
 import { useNavigate } from "react-router-dom";
 import { FiArrowLeftCircle } from "react-icons/fi";
 

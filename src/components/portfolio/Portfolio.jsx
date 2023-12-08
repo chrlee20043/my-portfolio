@@ -1,9 +1,9 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/aMUSE-img.png";
-import IMG2 from "../../assets/dancelibrary.png";
-import IMG3 from "../../assets/Christinas-List.png";
-import ComingSoon from "../../assets/coming-soon.png";
+import IMG1 from "../../assets/aMUSE-userMap.png";
+import IMG2 from "../../assets/dancelibraryClasses.png";
+import IMG3 from "../../assets/Christinas-List-final.png";
+import ComingSoon from "../../assets/comingsoon.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Portfolio = () => {
@@ -191,7 +191,7 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        {/* <article className="portfolio__item">
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
               src={ComingSoon}
@@ -216,7 +216,7 @@ const Portfolio = () => {
               Github
             </a>
           </div>
-        </article> */}
+        </article>
       </div>
     </section>
   );
