@@ -11,7 +11,6 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      {/* <h5>My Recent Work</h5> */}
       <h2>Projects</h2>
       <div className="portfolio__intro">
         <h3>

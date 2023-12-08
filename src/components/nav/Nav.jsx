@@ -39,17 +39,15 @@ const Nav = () => {
           href="https://www.linkedin.com/in/christinaehlee/"
           target="_blank"
           rel="noreferrer"
-          // className="nav-link"
         >
-          <BsLinkedin size={24} />
+          <BsLinkedin size={23} />
         </a>
         <a
           href="http://github.com/chrlee20043"
           target="_blank"
           rel="noreferrer"
-          // className="nav-link"
         >
-          <FaGithub size={24} />
+          <FaGithub size={23} />
         </a>
       </div>
     </nav>

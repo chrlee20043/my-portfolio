@@ -2,20 +2,20 @@ import React from "react";
 import "./jobs.css";
 import { BiCheck } from "react-icons/bi";
 
-const Services = () => {
+const Jobs = () => {
   return (
-    <section id="services">
+    <div id="jobs">
       <h2>Professional Experience</h2>
 
-      <div className="container services__container">
-        <article className="service">
-          <div className="service__head">
+      <div className="container jobs__container">
+        <article className="job">
+          <div className="job__head">
             <h3>Client Support Specialist</h3>
             <h4>Hustle</h4>
           </div>
-          <ul className="service__list">
+          <ul className="job__list">
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 {" "}
                 Provided technical support for clients using Zendesk responding
@@ -23,7 +23,7 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Collaborated cross-functionally with R&D, client success, and
                 other teams to implement client feedback and improve user
@@ -31,7 +31,7 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Investigated and escalated 30+ bug reports to the engineering
                 team for validation and contributed to delivery of fixes to
@@ -39,14 +39,14 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Authored and updated over 20 Help Site articles to document
                 product updates, weekly releases, and industry-wide changes.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Delivered exceptional support during the 2022 midterm election
                 to ensure smooth campaign operations.
@@ -55,14 +55,14 @@ const Services = () => {
           </ul>
         </article>
         {/* END OF FIRST SECTION */}
-        <article className="service">
-          <div className="service__head">
+        <article className="job">
+          <div className="job__head">
             <h3>Case Supervisor</h3>
             <h4>SFCASA</h4>
           </div>
-          <ul className="service__list">
+          <ul className="job__list">
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 {" "}
                 Supervised caseload of 40-50 CASA volunteers serving youth in
@@ -70,21 +70,21 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Achieved 85% quarterly volunteer survey completion rates for
                 grant writing and financial initiatives.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Championed implementation of Trauma-Informed Systems by
                 facilitating monthly Anti-Racism staff discussions.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Contributed to 23% increase in volunteer retention by
                 implementing programmatic improvements to address gaps in
@@ -92,7 +92,7 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Conducted over 100 in-depth volunteer interviews to actively
                 screen candidates for eligibility for the CASA program.
@@ -101,42 +101,42 @@ const Services = () => {
           </ul>
         </article>
         {/* END OF SECOND SECTION */}
-        <article className="service">
-          <div className="service__head">
+        <article className="job">
+          <div className="job__head">
             <h3>Program Assistant</h3>
             <h4>SFCASA</h4>
           </div>
-          <ul className="service__list">
+          <ul className="job__list">
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Managed weekly court filings, distributing documents to ensure
                 compliance with Judicial Court requirements.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Established collaborative relationships with stakeholders to
                 increase annual referral rate by 20%.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Developed partnerships with 10 businesses to offer community
                 engagement opportunities for youth and volunteers.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Redesigned monthly volunteer newsletter resulting positive
                 feedback from key stakeholders.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="job__list-icon" />
               <p>
                 Completed 40 hour volunteer training as a Court Appointed
                 Special Advocate (CASA).
@@ -146,8 +146,8 @@ const Services = () => {
         </article>
         {/* END OF THIRD SECTION */}
       </div>
-    </section>
+    </div>
   );
 };
 
-export default Services;
+export default Jobs;
