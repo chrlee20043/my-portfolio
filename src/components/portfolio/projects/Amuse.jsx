@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-import IMG1 from "../../../assets/aMUSE-img.png";
+import IMG1 from "../../../assets/aMUSE-userMap.png";
 import { useNavigate } from "react-router-dom";
 import { FiArrowLeftCircle } from "react-icons/fi";
 
