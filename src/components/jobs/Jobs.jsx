@@ -1,12 +1,17 @@
 import React from "react";
 import "./jobs.css";
+import ChristinaLeeResume from "../../assets/ChristinaLeeResume.pdf";
 import { BiCheck } from "react-icons/bi";
 
 const Jobs = () => {
   return (
     <div id="jobs">
       <h2>Professional Experience</h2>
-
+      <div className="resume-btn">
+        <a href={ChristinaLeeResume} download className="btn">
+          Download Resume
+        </a>
+      </div>
       <div className="container jobs__container">
         <article className="job">
           <div className="job__head">

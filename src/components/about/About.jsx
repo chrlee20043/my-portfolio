@@ -40,7 +40,7 @@ const About = () => {
               Let's Talk
             </Link>
             <a href={ChristinaLeeResume} download className="btn">
-              Download CV
+              Download Resume
             </a>
           </div>
         </div>

@@ -10,6 +10,11 @@
     gap: 2rem;
 }
 
+.resume-btn {
+    text-align: center;
+    margin: 1rem auto;
+  }
+
 .job {
     background: var(--color-bg-variant);
     border-radius: 2rem;
