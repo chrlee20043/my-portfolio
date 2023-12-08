@@ -191,7 +191,7 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
+        {/* <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
               src={ComingSoon}
@@ -216,7 +216,7 @@ const Portfolio = () => {
               Github
             </a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   );
