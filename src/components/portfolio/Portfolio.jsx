@@ -28,8 +28,30 @@ const Portfolio = () => {
               onClick={() => navigate("/amuse")}
             />
           </div>
-          <h3>aMUSE</h3>
-          <h5 className="portfolio_title_note">Tech Stack</h5>
+          <div className="project__title">
+            <h3>aMUSE</h3>
+            <button
+              onClick={() => navigate("/amuse")}
+              className="project__button"
+            >
+              View Project
+            </button>
+          </div>
+          <h5>
+            Full stack web app created for museum enthusiasts to search, review,
+            and rate museums. Users can save their most cherished experiences
+            with the ability to favorite museums and keep a personalized journal
+            of their visits.
+            <br />
+            <br />
+            Collaborated with 4 developers to create core features and integrate
+            Google Maps API. Implemeneted user authentication with
+            Redux-Persist, JWT, BCrypt
+          </h5>
+          <br />
+          <br />
+
+          <h4 className="portfolio_title_note">Tech Stack</h4>
           <div>
             <ul className="portfolio_tech_stack">
               <small>
@@ -91,8 +113,30 @@ const Portfolio = () => {
               onClick={() => navigate("/dance-library")}
             />
           </div>
-          <h3>Dance Library</h3>
-          <h5 className="portfolio_title_note">Tech Stack</h5>
+          <div className="project__title">
+            <h3>Dance Library</h3>
+            <button
+              onClick={() => navigate("/dance-library")}
+              className="project__button"
+            >
+              View Project
+            </button>
+          </div>
+          <h5>
+            Full stack web app designed for dancers of all levels to create a
+            digital library of dance classes from their favorite instructors.
+            Users can browse, search, filter classes and instructors to add to
+            their personal library.
+            <br />
+            <br />
+            Independent project to create core features and explore REST API
+            design and user authentication through Redux, JWT, and BCrypt. Users
+            can engage in smooth CRUD operations.
+          </h5>
+          <br />
+          <br />
+
+          <h4 className="portfolio_title_note">Tech Stack</h4>
           <div>
             <ul className="portfolio_tech_stack">
               <small>
@@ -154,8 +198,29 @@ const Portfolio = () => {
               onClick={() => navigate("/christinas-list")}
             />
           </div>
-          <h3>Christina's List</h3>
-          <h5 className="portfolio_title_note">Tech Stack</h5>
+          <div className="project__title">
+            <h3>Christina's List</h3>
+            <button
+              onClick={() => navigate("/christinas-list")}
+              className="project__button"
+            >
+              View Project
+            </button>
+          </div>
+          <h5>
+            Frontend web app where users can sell and purchase goods. Users can
+            ceate posts to sell unwanted items, edit and delete their posts.
+            Users can message sellers to inquire about items for sale and view
+            their posts and sent messages on their profile page.
+            <br />
+            <br />
+            Independent project to develop basic CRUD app and implement third
+            party API through Fullstack Academy.
+          </h5>
+          <br />
+          <br />
+
+          <h4 className="portfolio_title_note">Tech Stack</h4>
           <div>
             <ul className="portfolio_tech_stack">
               <small>
@@ -199,8 +264,24 @@ const Portfolio = () => {
               onClick={() => navigate("/project/job-finder")}
             />
           </div>
-          <h3>Job Finder</h3>
-          <small className="portfolio_title_note">Tech Stack</small>
+          <div className="project__title">
+            <h3>Job Finder</h3>
+            <button
+              onClick={() => navigate("/job-finder")}
+              className="project__button"
+            >
+              View Project
+            </button>
+          </div>{" "}
+          <h5>
+            Mobile app to help users search for jobs.
+            <br />
+            <br />
+            Independent project to explore React Native and mobile development.
+          </h5>
+          <br />
+          <br />
+          <h4 className="portfolio_title_note">Tech Stack</h4>
           <ul className="portfolio_tech_stack">
             <small>
               <li>React Native</li>
