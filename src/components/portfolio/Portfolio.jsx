@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/aMUSE-userMap.png";
 import IMG2 from "../../assets/dancelibraryclasses.png";
 import IMG3 from "../../assets/Christinas-List-final.png";
-import ComingSoon from "../../assets/comingsoon.jpg";
+import ComingSoon from "../../assets/coming-soon.png";
 import { useNavigate } from "react-router-dom";
 
 const Portfolio = () => {
