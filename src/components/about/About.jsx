@@ -22,8 +22,7 @@ const About = () => {
             HTML to update and maintain my employer's website at a nonprofit. I
             continued to develop my technical skills as a Client Support
             Specialist at a SaaS startup where I worked closely with clients and
-            engineers and applied my technical knowledge by using SQL, writing
-            documentation, and debugging issues.
+            engineers, wrote SQL queries, documentation, and debugged issues.
             <br />
             <br />
             I recently graduated from the Grace Hopper coding bootcamp at
