@@ -45,8 +45,8 @@ const Portfolio = () => {
             <br />
             <br />
             Collaborated with 4 developers to create core features and integrate
-            Google Maps API. Implemeneted user authentication with
-            Redux-Persist, JWT, BCrypt.
+            Google Maps API. Implemented user authentication with Redux-Persist,
+            JWT, BCrypt.
           </h5>
           <br />
           <br />
