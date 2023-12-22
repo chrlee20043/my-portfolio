@@ -261,17 +261,17 @@ const Portfolio = () => {
             <img
               src={ComingSoon}
               alt="Job Finder"
-              onClick={() => navigate("/project/job-finder")}
+              // onClick={() => navigate("/project/job-finder")}
             />
           </div>
           <div className="project__title">
-            <h3>Job Finder</h3>
-            <button
+            <h3>Job Finder (In Progress)</h3>
+            {/* <button
               onClick={() => navigate("/job-finder")}
               className="project__button"
             >
               View Project
-            </button>
+            </button> */}
           </div>{" "}
           <h5>
             Mobile app to help users search for jobs.

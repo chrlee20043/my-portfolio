@@ -38,6 +38,10 @@
     overflow: hidden;
 }
 
+.portfolio__item-image:hover {
+    cursor: pointer;
+}
+
 .portfolio__item h3 {
     margin: 1rem 0;
 }
@@ -94,8 +98,8 @@
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
     .portfolio__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
 
 
