@@ -33,12 +33,16 @@ const ChristinasList = () => {
               <a
                 href="https://github.com/chrlee20043/christinas-list"
                 className="btn"
+                target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
               <a
                 href="https://christinas-list.onrender.com/"
                 className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
               >
                 Live Link
               </a>

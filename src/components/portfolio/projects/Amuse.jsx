@@ -33,15 +33,24 @@ const Amuse = () => {
               <a
                 href="https://github.com/ghp-team-2-capstone/museum-app"
                 className="btn"
+                target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
-              <a href="https://amuse-jx0a.onrender.com/" className="btn">
+              <a
+                href="https://amuse-jx0a.onrender.com/"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Live Link
               </a>
               <a
                 href="https://www.youtube.com/watch?v=QcFOdZNFpBY&list=PLx0iOsdUOUmn_l4W9N2y0NBaMYNJlu8JF&index=1"
                 className="btn"
+                target="_blank"
+                rel="noreferrer"
               >
                 Presentation
               </a>

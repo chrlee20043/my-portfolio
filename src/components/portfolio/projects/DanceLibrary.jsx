@@ -33,12 +33,16 @@ const DanceLibrary = () => {
               <a
                 href="https://github.com/chrlee20043/dance-library"
                 className="btn"
+                target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
               <a
                 href="https://dance-library.onrender.com/"
                 className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
               >
                 Live Link
               </a>
