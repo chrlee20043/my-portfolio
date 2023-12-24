@@ -8,10 +8,24 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { faX } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
-  const [successMessage, setSuccessMessage] = useState(null);
+  // const [isOpen, setIsOpen] = useState(false);
+  const [isSuccessOpen, setIsSuccessOpen] = useState(false);
+  const [isErrorOpen, setIsErrorOpen] = useState(false);
+
+  // const [successMessage, setSuccessMessage] = useState(null);
   const [error, setError] = useState(null);
 
+  // const handleClose = () => {
+
   const form = useRef();
+
+  const handleCloseSuccess = () => {
+    setIsSuccessOpen(false);
+  };
+
+  const handleCloseError = () => {
+    setIsErrorOpen(false);
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -26,10 +40,14 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setIsSuccessOpen(true);
+          // setSuccessMessage(true);
         },
         (error) => {
           console.log(error.text);
           console.error(error);
+          setIsErrorOpen(true);
+          // setError(true);
         }
       );
     e.target.reset();
@@ -94,49 +112,57 @@ const Contact = () => {
         </div>
       </section>
 
-      {successMessage && <p>{successMessage}</p>}
-      {error && <p>{error}</p>}
-
-      <div className="container modal_container">
-        <div className="content">
-          <div className="success">
-            <div className="success-modal modal">
-              <div className="modal-icon success-icon">
-                <FontAwesomeIcon icon={faCheck} />
-              </div>
-              <div className="modal-top">
-                <h1>Message Sent!</h1>
-              </div>
-              <div className="modal-bottom modal-bottom-success">
-                <button type="button" class="modal-btn">
-                  Close
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {error && <p>{error}</p>}
-      <div className="container modal_container">
-        <div className="content">
-          <div className="fail">
-            <div className="fail-modal modal">
-              <div className="modal-icon fail-icon">
-                <FontAwesomeIcon icon={faX} />
-              </div>
-              <div className="modal-top">
-                <h1>Failed to Send</h1>
-              </div>
-              <div className="modal-bottom modal-bottom-fail">
-                <button type="button" class="modal-btn">
-                  Try Again
-                </button>
+      {isSuccessOpen && (
+        <div className="container modal_container">
+          <div className="content">
+            <div className="success">
+              <div className="success-modal modal">
+                <div className="modal-icon success-icon">
+                  <FontAwesomeIcon icon={faCheck} />
+                </div>
+                <div className="modal-top">
+                  <h1>Message Sent!</h1>
+                </div>
+                <div className="modal-bottom modal-bottom-success">
+                  <button
+                    type="button"
+                    className="modal-btn"
+                    onClick={handleCloseSuccess}
+                  >
+                    Close
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
+
+      {error && (
+        <div className="container modal_container">
+          <div className="content">
+            <div className="fail">
+              <div className="fail-modal modal">
+                <div className="modal-icon fail-icon">
+                  <FontAwesomeIcon icon={faX} />
+                </div>
+                <div className="modal-top">
+                  <h1>Failed to Send</h1>
+                </div>
+                <div className="modal-bottom modal-bottom-fail">
+                  <button
+                    type="button"
+                    className="modal-btn"
+                    onClick={handleCloseError}
+                  >
+                    Try Again
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
