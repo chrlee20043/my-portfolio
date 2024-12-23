@@ -62,6 +62,40 @@ const Jobs = () => {
         {/* END OF FIRST SECTION */}
         <article className="job">
           <div className="job__head">
+            <h3>Software Engineering Intern</h3>
+            <h4>BetterHelp</h4>
+          </div>
+          <ul className="job__list">
+            <li>
+              <BiCheck className="job__list-icon" />
+              <p>
+                {" "}
+                Collaborated with the engineering team to implement client-facing features, managing 10+ Jira cards to enhance the intake quiz and incorporate A/B test results using the LAMP stack (Linux, Apache, MySQL, PHP), Git, and Laravel.
+
+              </p>
+            </li>
+            <li>
+              <BiCheck className="job__list-icon" />
+              <p>
+              Refactored legacy code to transition to Model-View-Controller (MVC) architecture, optimizing the feature for deleting messages between clients and therapists for improved maintainability and scalability.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="job__list-icon" />
+              <p>
+              Diagnosed and resolved bugs including dynamically rendering the correct currency for international users in the FAQ section, ensuring consistency with existing front-end code.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="job__list-icon" />
+              <p>
+              Developed and maintained integration tests and database migrations to ensure the robustness and reliability of new features and updates.
+              </p>
+            </li>
+          </ul>
+        </article>
+        <article className="job">
+          <div className="job__head">
             <h3>Case Supervisor</h3>
             <h4>SFCASA</h4>
           </div>
