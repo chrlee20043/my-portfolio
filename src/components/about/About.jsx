@@ -25,9 +25,9 @@ const About = () => {
             engineers, wrote SQL queries, documentation, and debugged issues.
             <br />
             <br />
-            I recently graduated from the Grace Hopper coding bootcamp at
+            I recently completed a Software Engineering Internship with BetterHelp and graduated from the Grace Hopper coding bootcamp at
             Fullstack Academy. I really enjoyed the collaborative learning
-            environment and working independently and on a team to build apps
+            environment and working independently and on a team to build apps, implement features,
             and learn new technologies.
             <br />
             <br />
