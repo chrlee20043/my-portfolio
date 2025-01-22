@@ -20,9 +20,9 @@ const About = () => {
           <p>
             My passion for web development started in 2019 when I first learned
             HTML to update and maintain my employer's website at a nonprofit. I
-            continued to develop my technical skills as a Client Support
-            Specialist at a startup where I worked closely with clients and
-            engineers, wrote SQL queries, documentation, and debugged issues.
+            continue to develop my technical skills as a Client Support
+            Specialist at a startup where I work closely with clients and
+            engineers, write SQL queries, documentation, and debug issues.
             <br />
             <br />
             I recently completed a Software Engineering Internship with BetterHelp and graduated from the Grace Hopper coding bootcamp at
@@ -31,7 +31,6 @@ const About = () => {
             and learn new technologies.
             <br />
             <br />
-            I'm currently working as a Client Support Specialist.
             
             Please reach out to connect!
           </p>
