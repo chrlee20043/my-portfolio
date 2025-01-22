@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./about.css";
 import ME from "../../assets/me-about.jpeg";
-import ChristinaLeeResume from "../../assetts/ChristinaLeeResume.pdf";
+import ChristinaLeeResume from "../../assets/ChristinaLeeResume.pdf";
 
 const About = () => {
   return (
