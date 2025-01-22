@@ -21,7 +21,7 @@ const About = () => {
             My passion for web development started in 2019 when I first learned
             HTML to update and maintain my employer's website at a nonprofit. I
             continued to develop my technical skills as a Client Support
-            Specialist at a SaaS startup where I worked closely with clients and
+            Specialist at a startup where I worked closely with clients and
             engineers, wrote SQL queries, documentation, and debugged issues.
             <br />
             <br />
@@ -31,8 +31,9 @@ const About = () => {
             and learn new technologies.
             <br />
             <br />
-            I'm currently looking for new opportunities, please reach out to
-            connect!
+            I'm currently working as a Client Support Specialist.
+            
+            Please reach out to connect!
           </p>
           <div className="about__buttons">
             <Link to="/contact" className="btn btn-primary">
