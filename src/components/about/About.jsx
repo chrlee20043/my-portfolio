@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./about.css";
 import ME from "../../assets/me-about.jpeg";
-import ChristinaLeeResume from "../../assets/ChristinaLeeResume.pdf";
+// import ChristinaLeeResume from "../../assets/ChristinaLeeResume.pdf";
 
 const About = () => {
   return (
@@ -38,9 +38,9 @@ const About = () => {
             <Link to="/contact" className="btn btn-primary">
               Let's Talk
             </Link>
-            <a href={ChristinaLeeResume} download className="btn">
+            {/* <a href={ChristinaLeeResume} download className="btn">
               Download Resume
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
